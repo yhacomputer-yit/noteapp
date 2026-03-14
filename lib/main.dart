@@ -86,7 +86,6 @@ class _NotesPageState extends State<NotesPage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(Icons.note_alt_outlined, size: 64, color: Colors.orange[400]),
                   const SizedBox(height: 16),
                   Text('No notes yet. Tap + to add one!',
                     style: Theme.of(context).textTheme.headlineSmall?.copyWith(
